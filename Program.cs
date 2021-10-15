@@ -6,7 +6,7 @@ namespace DIO.Series
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine();
         }
     }
 }
