@@ -30,5 +30,15 @@ namespace DIO.Series
             retorno += "Ano de início: " + this.Ano + Environment.NewLine;
             return retorno;
         }
+
+        public string retornaTitulo()
+        {
+            return this.Titulo;
+        }
+
+        internal int retornaId()
+        {
+            return this.Id;
+        }
     }
 }
